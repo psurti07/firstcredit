@@ -71,7 +71,7 @@
 
 .custom-control-input {
   -webkit-appearance: checkbox !important;
-  accent-color: #22C55E;
+  accent-color: #FE661D;
 }
 
 .contac-form .input-field input {
@@ -608,8 +608,8 @@ display: none; */
 :root {
   --card-line-height: 1.2em;
   --card-padding: 1em;
-  --card-radius: 0.5em;
-  --color-green: #43A214;
+  --card-radius: 20px;
+  --color-green: #FE661D;
   --color-gray: #e2ebf6;
   --color-dark-gray: #c4d1e1;
   --radio-border-width: 1px;
@@ -707,6 +707,7 @@ display: none; */
 
 .radio:checked~.plan-details {
   border-color: var(--color-green);
+  background-color: #FFE9D9 !important;
 }
 
 /* .radio:focus ~ .plan-details {
@@ -1184,34 +1185,8 @@ a {
 }
 
 /* Purple loan card */
-.loan-offer-card {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: 92px;
-  padding: 24px 30px !important;
-  background: #4D0690;
-  border-radius: 14px 0 0 14px;
 
-  isolation: isolate;
-}
 
-@media screen and (min-width:768px) {
-  .loan-offer-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -12px;
-    width: 100%;
-    height: 100%;
-    background: url("../images/img/circle.png") no-repeat right center;
-    background-size: contain;
-    opacity: 1;
-    z-index: -1;
-    pointer-events: none;
-  }
-
-}
 
 .loan-offer-card h5,
 .loan-offer-card p,
@@ -1313,6 +1288,12 @@ a {
   .loan-offer-card p {
     font-size: 11px;
   }
+
+  .contac-form .input-field input {
+    height: 48px;
+    width: 48px;
+
+  }
 }
 
 
@@ -1354,6 +1335,10 @@ a {
     margin-bottom: 10px;
   }
 
+  .bg-blue {
+    background-color: #00003D;
+  }
+
 
   /* Green image section */
   .loan-valid-image {
@@ -1385,24 +1370,20 @@ a {
   }
 
   .form-right {
-    border-radius: 0 0 20px 20px;
-  }
- .categories-list {
-padding: 15px;
- }
-}
-
-@media screen and (min-width:768px) {
-
-  .how-we-help-block .card-left,
-  .how-we-help-block .card-right {
-    padding: 0;
+    border-radius:20px;
   }
 
-  .form-right-main {
-    padding: 0;
+  .categories-list {
+    padding: 15px;
   }
 }
+
+.loan-offer-card {
+  background: linear-gradient(96.65deg, #00005A 0%, #1D1DB8 70%, #3B3BFF 100%);
+  border-radius: 32px;
+  border: 1px solid #FFFFFF47 !important;
+}
+
 
 .partner-section {
   background: url("../images/img/Partner-img.png") no-repeat right center;
@@ -1452,15 +1433,518 @@ padding: 15px;
 }
 
 @media screen and (max-width:767px) {
-   .bg-dark{
-background-image: url(../images/image.png);
-padding-top: 231px !important;
+  .hero-section.bg-dark {
+    background-image: url(../images/home-mobile.png);
+           padding-top: 350px !important;
+        background-size: cover;
+        background-position: top center;
 
-   }  
-   .partner-bg-img{
+  }
+
+  .partner-bg-img {
     margin-top: 0;
-   } 
-   .visual-theme-5 .visual-textbox h1{
-    font-size: 61px;
+  }
+
+  .visual-theme-5 .visual-textbox h1 {
+    font-size: 54px;
+  }
+}
+
+.header-box.header-box-wrap {
+  background: linear-gradient(135deg, #202B85 0%, #29277F 50%, #29277F 100%);
+  border: 1px solid #FFFFFF47 !important;
+  backdrop-filter: blur(22px);
+}
+
+.text-hold .tag-list span.tag-wrap {
+  background: #FE661D1A;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  border-radius: 27px;
+  padding: 7px 16px;
+  font-weight: 600;
+}
+
+.categories-image-wrap {
+
+  padding: 16px;
+  display: flex;
+  border-radius: 12px;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+}
+
+.bg-gredient {
+  background: linear-gradient(144.74deg, #00005A 0%, #0A0A86 100%);
+}
+
+.contact-form-right label {
+  font-size: 13px;
+}
+
+#contactForm .form-control {
+  background: linear-gradient(135deg, #24267F 0%, #252781 50%, #262989 100%);
+  border: 1px solid #FFFFFF47 !important;
+  backdrop-filter: blur(22px);
+  border-radius: 14px;
+
+}
+
+#contactForm .form-control::placeholder {
+  color: #fff !important;
+}
+
+.newsletter-section {
+  border-radius: 22px;
+}
+
+.bg-dark-blue {
+  background: #00003D !important;
+}
+
+.detail_box .commmon-box.card-box-main:hover svg {
+  color: #000 !important;
+}
+
+.limited-offer {
+  background: #FFFFFF26;
+  border: 1px solid #FFFFFF47 !important;
+}
+
+.font-Fraunces {
+  font-family: Fraunces;
+}
+
+.starting-price {
+  background: #FFFFFF26;
+  border-radius: 6px !important;
+  border: 1px solid #FFFFFF47 !important;
+}
+
+/* progressbar */
+
+.loan-progress {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.loan-progress-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.loan-progress-title {
+  color: #101044;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.loan-progress-step {
+  color: #4C4C70;
+  font-size: 10px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+
+.loan-progress-track {
+  width: 100%;
+  height: 4px;
+  background-color: #E9E9F2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.loan-progress-fill {
+  width: 20%;
+  height: 100%;
+  background-color: #FF6533;
+  border-radius: 10px;
+}
+
+.loan-progress-fill.one {
+  width: 40%;
+  height: 100%;
+  background-color: #FF6533;
+  border-radius: 10px;
+}
+
+.loan-progress-fill.two {
+  width: 60%;
+  height: 100%;
+  background-color: #FF6533;
+  border-radius: 10px;
+}
+
+.loan-progress-fill.three {
+  width: 75%;
+  height: 100%;
+  background-color: #FF6533;
+  border-radius: 10px;
+}
+
+.loan-progress-fill.fourth {
+  width: 90%;
+  height: 100%;
+  background-color: #FF6533;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .process-box.subscription-left{
+display: none;
+  }
+  .loan-progress {
+    padding: 10px 12px;
+  }
+
+  .loan-progress-header {
+    margin-bottom: 12px;
+  }
+  
+}
+
+.landind-card-wrapper {
+
+  border: 1px solid #FFFFFF47 !important;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 32px !important;
+
+
+
+}
+
+
+.base-icon {
+  position: relative;
+}
+
+
+.base-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 250px;
+}
+
+.base-icon::before,
+.base-icon::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width:768px) {
+  .landind-card-wrapper .mobile-application-progress {
+    display: none;
+  }
+  .mobile-application-progress{
+    display: none;
+  }
+  .loan-offer-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/loan-offer-card-img.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  pointer-events: none;
+
+}
+.bg-image-wrap {
+  margin-right: -310px;
+  margin-top: -170px;
+}
+.counter-section::before{
+ 
+     content: "";
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background-image: url(../images/counter-left.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.counter-section::after{
+       content: "";
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background-image: url(../images/counter-right.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    pointer-events: none;
+    right: 0;
+    bottom: 0;
+}
+
+.contact-section:before{
+  content: "";
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background-image: url(../images/contact-left-img.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    pointer-events: none;
+    bottom: 0;
+    left: 0;
+}
+.contact-section:after{
+  content: "";
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background-image: url(../images/contact-right-img.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    pointer-events: none;
+ top: 0;
+right: 0;
 }
 }
+
+.mobile-application-progress.process-box{
+  border-radius: 20px;
+}
+.mobile-application-progress {
+  width: 100%;
+  padding: 4px 16px 14px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+
+.mobile-application-progress .mobile-progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mobile-application-progress .mobile-progress-title {
+  color: #9BA9D2;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.mobile-application-progress .mobile-secure {
+  color: #76F4B2;
+  font-size: 11px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.mobile-application-progress .mobile-secure i {
+  font-size: 10px;
+  color: #C8D5A0;
+}
+
+/* Progress bars */
+.mobile-application-progress .mobile-progress-bars {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 6px;
+  margin-bottom: 13px;
+}
+
+.mobile-application-progress .progress-segment {
+  display: block;
+  flex: 1 1 0;
+  min-width: 0;
+  height: 6px;
+  border-radius: 10px;
+     background-color: #797f93;
+}
+
+.mobile-application-progress .progress-segment.completed {
+  background-color: #0DBB78;
+}
+
+.mobile-application-progress .progress-segment.active {
+  background-color: #FF6B0B;
+}
+
+/* Current step */
+.mobile-application-progress .mobile-current-step {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.mobile-application-progress .mobile-current-step span {
+  color: #FF7830;
+}
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+
+  .mobile-application-progress {
+    padding: 14px 18px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .mobile-application-progress {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .mobile-application-progress .mobile-progress-title,
+  .mobile-application-progress .mobile-secure {
+    font-size: 10px;
+  }
+
+  .mobile-application-progress .mobile-progress-bars {
+    gap: 5px;
+  }
+
+  .mobile-application-progress .mobile-current-step {
+    font-size: 14px;
+  }
+}
+
+.bg-light-orange {
+  background-color: #FFE9D9;
+}
+
+.details-content {
+  border-bottom: 1px solid #FFFFFF33;
+}
+
+.application-timeline {
+  position: relative;
+}
+
+.application-timeline .timeline-step {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 55px;
+  position: relative;
+  padding: 0 10px;
+}
+
+
+.application-timeline .timeline-circle {
+  width: 33px;
+  height: 33px;
+  min-width: 33px;
+  border: 1px solid #46547C;
+  border-radius: 50%;
+
+  color: #A1AED4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+.application-timeline .timeline-title {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #9AA8D0;
+}
+
+
+.application-timeline .timeline-step.completed .timeline-circle {
+
+  color: #07152B;
+}
+
+.application-timeline .timeline-step.completed .timeline-title {
+  color: #DCE3F8;
+}
+
+
+.application-timeline .timeline-step.active .timeline-circle {
+
+  color: #FFFFFF;
+  box-shadow: 0 0 0 6px rgba(255, 107, 11, 0.25);
+}
+
+.application-timeline .timeline-step.active .timeline-title {
+  color: #FFFFFF;
+}
+
+
+.application-timeline .timeline-step.active {
+  background: linear-gradient(90deg, #51449B 0%, #49419A 100%);
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.bg-light-purple {
+  background: linear-gradient(90deg, #51449B 0%, #49419A 100%);
+}
+
+.offer-section .radio {
+  opacity: 0 !important;
+}
+
+.left-content-bottom {
+  text-align: start;
+  background: #FE661D4D;
+  border: 1px solid #FE661D4D;
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+}
+
+.left-content-bottom p {
+  font-size: 12px;
+}
+
+.subscription-left::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 600px;
+
+  background-image: url("../images/subscription-left-orange.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+
+  z-index: -1;
+  pointer-events: none;
+
+}
+
+
+ 

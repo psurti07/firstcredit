@@ -10,7 +10,9 @@
 
 	                        <div class="footer-info">
 	                            <div class="form-subscribe mb-20">
-	                                <p class="text-light">At FlexiCred, we make loan application support easier to understand. Our team provides clear guidance on documents, process steps and lender requirements, helping customers make informed decisions with confidence.</p>
+	                                <p class="text-light">FirstCredit helps you find the right financial
+support by connecting you with trusted NBFC
+partners across India.</p>
 	                            </div>
 
 	                            <ul class="social-networks no-bg d-flex flex-wrap">
@@ -73,24 +75,20 @@
 	                    <ul class="contact-list">
 	                       
 	                        <li>
-	                            <img src="<?php echo base_url('assets/images/icons/map-icon.png'); ?>" alt="firstkredit"
-	                            class="mb-20 img-fluid">
+	                               <span class="text ms-10"><a class="text-light"
+	                                    href="mailto:<?php echo COMPANY_EMAIL; ?>"><?php echo COMPANY_EMAIL; ?></a></span>
 
-	                            <span class="text ms-10 text-light"><?php echo COMPANY_ADDRESS; ?></span>
+	                       
 	                        </li>
 	                        <li>
-	                             <img src="<?php echo base_url('assets/images/icons/call-icon.png'); ?>" alt="firstkreditt"
-	                            class="mb-20 img-fluid">
+	                            
 
 	                            <span class="text ms-10"><a class="text-light"
 	                                    href="tel:<?php echo COMPANY_MOBILE; ?>"><?php echo COMPANY_MOBILE; ?></a></span>
 	                        </li>
 	                        <li>
-	                               <img src="<?php echo base_url('assets/images/icons/envelope-icon.png'); ?>" alt="firstkredit"
-	                            class="mb-20 img-fluid">
-
-	                            <span class="text ms-10"><a class="text-light"
-	                                    href="mailto:<?php echo COMPANY_EMAIL; ?>"><?php echo COMPANY_EMAIL; ?></a></span>
+	                                  <span class="text ms-10 text-light"><?php echo COMPANY_ADDRESS; ?></span>
+	                       
 	                        </li>
 	                    </ul>
 	                </div>
@@ -103,10 +101,10 @@
 	        <div class="container">
 	            <div class="row align-items-center">
 	                <div class="col-12 col-md-6 text-sm-start text-center">
-	                    <p class="small"><?php echo date('Y') . ' &copy; ' . COMPANY_NAME; ?>. All rights reserved.</p>
+	                    <p class="small text-white"><?php echo date('Y') . ' &copy; ' . COMPANY_NAME; ?>. All rights reserved.</p>
 	                </div>
 					<div class="col-12 col-md-6 text-sm-end text-center">
-	                    <p class="small"> Crafted with care in Surat, India.</p>
+	                    <p class="small text-white"> Crafted with care in Surat, India.</p>
 	                </div>
 	            </div>
 	        </div>

@@ -1,162 +1,194 @@
-<?php
+ <?php
 $this->load->view('includes/header-offer');
 ?>
 
-<main class="jobplugin__main bg-light">
-    <div class="container">
-        <div class="jobplugin__main-holder">
-            <div class="jobplugin__container">
-                <div class="row">
-                        <div class="jobplugin__settings-head text-center">
-                        <h5 class="fs-4">Purchase Plan To View Your Pre-Approved Loan Offers</h5>
-                        <p class="jobplugin__settings-head__text pt-0">Instant Pre-Approval | Multiple NBFCs Offers |
-                            100%
-                            Paperless Process</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 mb-md-0 mb-15">
-                        <div class="block-holder form-condidates bg-white shadow rounded-1 card-right">
+<main class="jobplugin__main">
+    <section class="bg-light-sky">
+        <div class="container">
+            <div class="jobplugin__main-holder">
 
-                            <h6 class="jobplugin__text-secondary fs-6">Subscription Plan</h6>
-                            <div class="jobplugin__settings-card bg-white border-0">
-                                <header
-                                    class="jobplugin__settings-card__head d-flex justify-content-start bg-white border-0 ps-0">
-                                    <h3 class="h6"><?php
+                <div class="jobplugin__container">
+                    <div class="row">
+                        <div class="jobplugin__settings-head text-center">
+                            <h5 class="fs-4 text-blue">Purchase Plan To View Your Pre-Approved Loan Offers</h5>
+                            <p class="jobplugin__settings-head__text pt-0">Instant Pre-Approval | Multiple NBFCs Offers
+                                |
+                                100%
+                                Paperless Process</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div class="account-box ">
+                                <div class="account-box-frame text-dark bg-white">
+
+
+                                    <h6 class="jobplugin__text-secondary fs-6">Subscription Plan</h6>
+                                    <div class="jobplugin__settings-card bg-white border-0">
+                                        <header
+                                            class="jobplugin__settings-card__head d-flex justify-content-start bg-white border-0 ps-0">
+                                            <h3 class="h6"><?php
 													if ($productdata['inOffer'] == 1) {
 														echo '<h5 class="mb-0"><span class="text-danger"><del>&#8377; ' . formatePrice($productdata['amount']) . ' </del></span> ';
-														echo '<strong class="text-success">&#8377; ' . formatePrice($productdata['offeramount']) . '/-</strong> <span>Only</span></h5>';
+														echo '<strong class="text-success mb-0">&#8377; ' . formatePrice($productdata['offeramount']) . '/-</strong> <span>Only</span></h5>';
 														$subtotal = $productdata['offeramount'];
 													} else {
-														echo '<h3 class="text-success">&#8377; ' . formatePrice($productdata['amount']) . '</h3>';
+														echo '<h3 class="text-success mb-0">&#8377; ' . formatePrice($productdata['amount']) . '</h3>';
 														$subtotal = $productdata['amount'];
 													}
 													?></h3>
-                                </header>
-                                <div class="jobplugin__settings-card__body p-0">
-                                    <?php if ($productdata['inOffer'] == 1) { ?>
-                                    <div class="jobplugin__settings-card__subbox">
-                                        <ul class="jobplugin__settings-card__subbox-list">
-                                            <li>
-                                                <strong
-                                                    class="jobplugin__settings-card__subbox-subtitle text-success"><?php echo calPercentage($productdata['amount'], $productdata['offeramount']); ?>
-                                                    OFF</strong>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <?php } ?>
-                                    <div class="jobplugin__settings-card__subbox">
-                                        <ul class="jobplugin__settings-card__subbox-list">
-                                            <li>
-                                                <strong class="jobplugin__settings-card__subbox-subtitle"><strong>Subtotal
-                                                        :
-                                                    </strong><?php echo formatePriceIndia($subtotal); ?></strong>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="jobplugin__settings-card__subbox">
-                                        <ul class="jobplugin__settings-card__subbox-list">
-                                            <li>
-                                                <strong class="jobplugin__settings-card__subbox-subtitle"><strong>GST
-                                                        (18%)
-                                                        :
-                                                    </strong><?php $gst = $subtotal * 0.18;
+                                        </header>
+                                        <div class="jobplugin__settings-card__body p-0">
+                                            <?php if ($productdata['inOffer'] == 1) { ?>
+                                            <div class="jobplugin__settings-card__subbox">
+                                                <ul class="jobplugin__settings-card__subbox-list">
+                                                    <li>
+                                                        <strong
+                                                            class="jobplugin__settings-card__subbox-subtitle text-success"><?php echo calPercentage($productdata['amount'], $productdata['offeramount']); ?>
+                                                            OFF</strong>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <?php } ?>
+                                            <div class="jobplugin__settings-card__subbox">
+                                                <ul class="jobplugin__settings-card__subbox-list">
+                                                    <li>
+                                                        <strong
+                                                            class="jobplugin__settings-card__subbox-subtitle"><strong>Subtotal
+                                                                :
+                                                            </strong><?php echo formatePriceIndia($subtotal); ?></strong>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="jobplugin__settings-card__subbox">
+                                                <ul class="jobplugin__settings-card__subbox-list">
+                                                    <li>
+                                                        <strong
+                                                            class="jobplugin__settings-card__subbox-subtitle"><strong>GST
+                                                                (18%)
+                                                                :
+                                                            </strong><?php $gst = $subtotal * 0.18;
 																echo formatePriceIndia($gst); ?></strong>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="jobplugin__settings-card__subbox">
-                                        <ul class="jobplugin__settings-card__subbox-list">
-                                            <li>
-                                                <strong class="jobplugin__settings-card__subbox-subtitle"><strong>Grand
-                                                        Total :
-                                                    </strong><?php $grandtotal = $subtotal + $gst;
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="jobplugin__settings-card__subbox">
+                                                <ul class="jobplugin__settings-card__subbox-list">
+                                                    <li>
+                                                        <strong
+                                                            class="jobplugin__settings-card__subbox-subtitle"><strong>Grand
+                                                                Total :
+                                                            </strong><?php $grandtotal = $subtotal + $gst;
 																echo formatePriceIndia($grandtotal); ?></strong>
-                                            </li>
-                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="jobplugin__settings-card__subbox">
+                                                <ul class="jobplugin__settings-card__subbox-list">
+                                                    <li>
+                                                        <strong
+                                                            class="jobplugin__settings-card__subbox-subtitle"><strong>Plan
+                                                                Validity : </strong>6 months</strong>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="jobplugin__settings-card__subbox">
+                                                <ul class="jobplugin__settings-card__subbox-list">
+                                                    <li>
+                                                        <strong
+                                                            class="jobplugin__settings-card__subbox-subtitle"><strong>Loan
+                                                                Process Time :</strong> 72 Hours</strong>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="jobplugin__settings-card__subbox">
-                                        <ul class="jobplugin__settings-card__subbox-list">
-                                            <li>
-                                                <strong class="jobplugin__settings-card__subbox-subtitle"><strong>Plan
-                                                        Validity : </strong>6 months</strong>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="jobplugin__settings-card__subbox">
-                                        <ul class="jobplugin__settings-card__subbox-list">
-                                            <li>
-                                                <strong class="jobplugin__settings-card__subbox-subtitle"><strong>Loan
-                                                        Process Time :</strong> 72 Hours</strong>
-                                            </li>
-                                        </ul>
-                                    </div>
+
                                 </div>
+
                             </div>
+
                         </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="block-holder form-condidates bg-white shadow rounded-1 card-right">
-                            <h6 class="jobplugin__text-secondary fs-6 mb-15">Please Fill Basic Detail</h6>
-                            <?php
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div class="account-box mb-0">
+                                <div class="account-box-frame text-dark bg-white">
+
+
+                                    <h6 class="jobplugin__text-secondary fs-6 mb-15">Please Fill Basic Detail</h6>
+                                    <?php
 							if ($this->session->flashdata('danger')): ?>
-                            <div id="flash-message" class="alert alert-danger alert-dismissible fade show text-danger"
-                                role="alert">
-                                <?= $this->session->flashdata('danger'); ?>
-                                <?= $this->session->unset_userdata('danger'); ?>
-                            </div>
-                            <?php endif; ?>
-                            <?php echo form_open('pay/getbumperpay', array('id' => 'submitForm1', 'class' => '', 'novalidate' => 'novalidate')); ?>
-                            <div class="jobplugin__form">
-                                <div class="form-group">
-                                    <div class="jobplugin__form-row">
-                                        <div class="jobplugin__form-field">
-                                            <input type="text" id="fullname" name="fullname" placeholder="Full Name *"
-                                                required data-validation-regex-regex="^[a-zA-Z ]*$"
-                                                data-validation-regex-message="Enter valid fullname" />
-                                        </div>
+                                    <div id="flash-message"
+                                        class="alert alert-danger alert-dismissible fade show text-danger" role="alert">
+                                        <?= $this->session->flashdata('danger'); ?>
+                                        <?= $this->session->unset_userdata('danger'); ?>
                                     </div>
-                                    <div class="help-block font-small-3"></div>
-                                </div>
+                                    <?php endif; ?>
+                                    <?php echo form_open('pay/getbumperpay', array('id' => 'submitForm1', 'class' => '', 'novalidate' => 'novalidate')); ?>
+                                    <div class="jobplugin__form">
+                                        <div class="form-group">
+                                            <div class="jobplugin__form-row">
+                                                <div class="jobplugin__form-field">
+                                                    <input type="text" id="fullname" name="fullname"
+                                                        placeholder="Full Name *" required
+                                                        data-validation-regex-regex="^[a-zA-Z ]*$"
+                                                        data-validation-regex-message="Enter valid fullname" />
+                                                </div>
+                                            </div>
+                                            <div class="help-block font-small-3"></div>
+                                        </div>
 
-                                <div class="form-group">
-                                    <div class="jobplugin__form-row">
-                                        <div class="jobplugin__form-field">
-                                            <input type="text" id="mobileno" name="mobileno" placeholder="Mobile no. *"
-                                                required minlength="10" maxlength="10" inputmode="numeric"
-                                                data-validation-regex-regex="^[6789]\d{9}$"
-                                                data-validation-regex-message="Enter valid mobile number" />
+                                        <div class="form-group">
+                                            <div class="jobplugin__form-row">
+                                                <div class="jobplugin__form-field">
+                                                    <input type="text" id="mobileno" name="mobileno"
+                                                        placeholder="Mobile no. *" required minlength="10"
+                                                        maxlength="10" inputmode="numeric"
+                                                        data-validation-regex-regex="^[6789]\d{9}$"
+                                                        data-validation-regex-message="Enter valid mobile number" />
+                                                </div>
+                                            </div>
+                                            <div class="help-block font-small-3"></div>
                                         </div>
-                                    </div>
-                                    <div class="help-block font-small-3"></div>
-                                </div>
 
-                                <div class="form-group">
-                                    <div class="jobplugin__form-row">
-                                        <div class="jobplugin__form-field">
-                                            <input type="email" id="emailid" name="emailid" placeholder="Email Id *"
-                                                required />
+                                        <div class="form-group">
+                                            <div class="jobplugin__form-row">
+                                                <div class="jobplugin__form-field">
+                                                    <input type="email" id="emailid" name="emailid"
+                                                        placeholder="Email Id *" required />
+                                                </div>
+                                            </div>
+                                            <div class="help-block font-small-3"></div>
                                         </div>
                                     </div>
-                                    <div class="help-block font-small-3"></div>
+                                    <div class="mb-10">
+                                        <button type="submit" id="form-submit1"
+                                            class="btn btn-orange btn-sm text-uppercase w-100">Process
+                                            to Pay</button>
+                                    </div>
+                                    <?php echo form_close(); ?>
+                                    <p class="jobplugin__userbox-textinfo text-start small"><small>
+                                            By submitting the form &
+                                            proceeding, you agree to the <a
+                                                href="<?php echo site_url('terms-conditions'); ?>" target="_blank"
+                                                class="text-dark">Terms of Use</a> and <a
+                                                href="<?php echo site_url('privacy-policy'); ?>" target="_blank"
+                                                class="text-dark">Privacy Policy</a> of indiafinpro.com
+                                        </small></p>
+
                                 </div>
                             </div>
-                            <div class="jobplugin__userbox-button">
-                                <button type="submit" id="form-submit1"
-                                    class="jobplugin__button large jobplugin__bg-primary hover:jobplugin__bg-secondary">Process
-                                    to Pay</button>
-                            </div>
-                            <?php echo form_close(); ?>
-                            <p class="jobplugin__userbox-textinfo text-start"><small class="fa-small">
-                                    By submitting the form & proceeding, you agree to the <a
-                                        href="<?php echo site_url('terms-conditions'); ?>" target="_blank"
-                                        class="text-dark">Terms of Use</a> and <a
-                                        href="<?php echo site_url('privacy-policy'); ?>" target="_blank"
-                                        class="text-dark">Privacy Policy</a> of firstkredit.in
-                                </small></p>
                         </div>
+
                     </div>
-                    <div class="pt-80 section-theme-9">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class=" mt-50 section-theme-9">
                         <header class="section-header">
-                            <h4 class="text-center">Our NBFC Partners</h4>
+                            <h5 class="fs-4 text-blue text-center">Our NBFC Partners</h5>
                             <p class="text-center">Your Bridge to Smarter Financial Opportunities</p>
                         </header>
                         <div class="jobplugin__slider jobplugin__slider--four-items">
@@ -166,7 +198,7 @@ $this->load->view('includes/header-offer');
                                     <div
                                         class="jobplugin__article-image d-flex justify-content-center jobplugin__userbox p-0">
                                         <a href="#"><img src="<?= base_url('assets/images/bank/' . $row->bank_image) ?>"
-                                                alt="<?= $row->bank_name ?>" style="width: 200px;" class="p-2"></a>
+                                                alt="<?= $row->bank_name ?>" style="width: 200px;"></a>
                                     </div>
                                 </article>
                             </div>
@@ -174,9 +206,11 @@ $this->load->view('includes/header-offer');
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </div>
+    </section>
+
 </main>
 
 <?php
@@ -189,7 +223,7 @@ $(function() {
         $('#form-submit1').attr('disabled', true);
         $('#form-submit1').html(
             'Processing... <span class="spinner-border spinner-border-sm ms-1" role="status" aria-hidden="true"></span>'
-            );
+        );
     });
 });
 setTimeout(function() {

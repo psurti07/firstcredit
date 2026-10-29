@@ -74,22 +74,26 @@
 </head>
 
 <body class="jobplugin">
- 
+
     <div class="jobplugin__wrapper">
-       
+
         <!--=====HEADER START=======-->
-         <header class="header header-theme-1 bg-blue">
-            <div class="container header-box">
+        <header class="header header-theme-1 bg-blue">
+            <div class="container">
+            <div class="header-box bg-light-sky border px-20 py-5 w-100">
                 <div class="text-start">
-                <strong class="logo">
-                    <a href="<?php echo site_url(); ?>">
-                        <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
-                            alt="firstkredit">
-                        <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>"
-                            alt="firstkredit">
-                    </a>
-                </strong>
+                    <strong class="logo">
+                        <a href="<?php echo site_url(); ?>">
+                            <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
+                                alt="firstkredit">
+                            <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
+                                alt="firstkredit">
+                        </a>
+                    </strong>
+                </div>
 </div>
+            </div>
+    
         </header>
- 
+
         <!--=====HEADER END=======-->

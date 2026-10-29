@@ -77,11 +77,11 @@
 
     <main class="main">
       <section
-        class="section section-accounts section-theme-1 pt-35 pt-md-50 pt-lg-75 pt-xl-100 pt-xxl-120 pb-35 pb-md-50 pb-lg-75 pb-xl-100 pb-xxl-120 vh-100 d-flex align-items-center justify-content-center">
+        class="section section-accounts section-theme-1 pt-35 pt-md-50 pt-lg-75 pt-xl-100 pt-xxl-120 pb-35 pb-md-50 pb-lg-75 pb-xl-100 pb-xxl-120 vh-100 d-flex align-items-center justify-content-center bg-light-sky">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 m-auto">
-            	<div class="block-holder form-condidates bg-white shadow rounded-1 card-right">  
+            	<div class="block-holder form-condidates bg-white shadow rounded-1">  
               <!-- <div class="account-box"> -->
                 <div class="text-center pb-30" style="margin:auto">
                   <img src="<?php echo base_url('assets/images/logo/logo-lg.png'); ?>" alt="user" class="img-fluid" width="200px">
@@ -106,12 +106,12 @@
                       <a href="<?php echo site_url('customer/login/forgotpassword'); ?>" class="link mx-10">Forgot Password?</a>
                     </div>
                     <div class="col-12 text-center">
-                      <button class="btn btn-green btn-sm"><span class="btn-text">Login</span></button>
+                      <button class="btn btn-orange btn-sm"><span class="btn-text">Login</span></button>
                     </div>
                   </div>
                   </form>
                   <div class="social-login text-center mt-15">
-                    <strong class="title">Don't have an account? <a href="<?php echo site_url('onlineprocess/applynow'); ?>" class="text-success">Apply Now</a></strong>
+                    <strong class="title">Don't have an account? <a href="<?php echo site_url('onlineprocess/applynow'); ?>" class="text-orange">Apply Now</a></strong>
                   </div>
                 </div>
               </div>
@@ -124,14 +124,14 @@
 
     <!--=====footer-start=======-->
     <footer class="footer footer-theme-1">
-      <div class="sec-footer bg-dark-green text-white pt-30 pb-25 py-md-20 py-lg-45">
+      <div class="sec-footer bg-blue text-white pt-30 pb-25 py-md-20 py-lg-20">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12 col-md-7 mb-15 mb-md-0">
-              <p>CIN No: <?php echo COMPANY_CIN; ?> | Call Support: <?php echo COMPANY_MOBILE; ?></p>
+              <p class="text-white">CIN No: <?php echo COMPANY_CIN; ?> | Call Support: <?php echo COMPANY_MOBILE; ?></p>
             </div>
             <div class="col-12 col-md-5">
-              <p><?php echo date('Y') . ' &copy; ' . COMPANY_NAME; ?> All rights reserved.</p>
+              <p class="text-white"><?php echo date('Y') . ' &copy; ' . COMPANY_NAME; ?> All rights reserved.</p>
             </div>
           </div>
         </div>

@@ -317,7 +317,7 @@
   .jobplugin textarea{
     font-size: 16px;
     padding: 10px 23px;
-    border-radius: 10px;
+    border-radius: 10px !important;
   }
   .jobplugin select {
     font-size: 16px;
@@ -398,7 +398,7 @@
 .jobplugin h5, .jobplugin .h5,
 .jobplugin h6, .jobplugin .h6,
 .jobplugin .h {
-  font-family: inherit;
+  /* font-family: inherit; */
   font-weight: bold;
   margin: 0 0 15px;
   line-height: 1.1;
@@ -447,7 +447,7 @@
 }
 @media (min-width: 1440px) {
   .jobplugin h2, .jobplugin .h2 {
-    font-size: 46px;
+    font-size: 65px;
   }
 }
 .jobplugin h3, .jobplugin .h3 {
@@ -501,7 +501,7 @@
 }
 @media (min-width: 1200px) {
   .jobplugin h5, .jobplugin .h5 {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 .jobplugin h6, .jobplugin .h6 {

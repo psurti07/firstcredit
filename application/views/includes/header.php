@@ -119,46 +119,55 @@
     <div id="wrapper">
         <!--=====HEADER START=======-->
         <header class="header">
-            <div class="container header-box">
+            <div class="container">
+       <div class="header-box w-100 d-flex align-items-center justify-content-between">
                 <div class="text-start">
-                <strong class="logo">
-                    <a href="<?php echo site_url(); ?>">
-                        <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
-                            alt="firstkreditt">
-                        <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
-                            alt="firstkredittt">
-                    </a>
-                </strong>
-</div>
+                    <strong class="logo">
+                        <a href="<?php echo site_url(); ?>">
+                            <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
+                                alt="firstkreditt">
+                            <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
+                                alt="firstkredittt">
+                        </a>
+                    </strong>
+                </div>
                 <div class="header-right">
-                <a class="btn btn-green mobile-btn"
-                    href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
-                        Now</span></a>
-                <div class="main-nav ms-10 header-menu">
-                    <a href="<?php echo site_url(); ?>" class="nav-opener d-flex d-lg-none"><span></span></a>
-                    <div class="nav-drop d-lg-flex align-items-center justify-content-between">
-                        <a href="<?php echo site_url(); ?>" class="nav-close d-flex d-lg-none"><span></span></a>
+                    <a class="btn btn-orange mobile-btn" href="<?php echo site_url('onlineprocess/applynow'); ?>"><span
+                            class="btn-text"> Apply
+                            Now</span></a>
+                    <div class="main-nav ms-10 header-menu">
+                        <a href="<?php echo site_url(); ?>" class="nav-opener d-flex d-lg-none"><span></span></a>
+                        <div class="nav-drop d-lg-flex align-items-center justify-content-between">
+                            <a href="<?php echo site_url(); ?>" class="nav-close d-flex d-lg-none"><span></span></a>
 
-                        <ul class="navigation">
-                            <li><a href="<?php echo site_url(); ?>">Home</a></li>
-                            <li><a href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
-                            <li><a href="javascript:;" onclick="goToMenu('contactus')">Contact</a></li>
-                            <li><a href="javascript:;" onclick="goToMenu('testimonial')">Testimonial</a></li>
-                            
-                        </ul>
+                            <ul class="navigation">
+                                <li><a href="<?php echo site_url(); ?>">Home</a></li>
+                                <li><a href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
+                                <li><a href="javascript:;" onclick="goToMenu('contactus')">Contact</a></li>
+                                <li><a href="javascript:;" onclick="goToMenu('testimonial')">Testimonial</a></li>
+ <li class="d-lg-none d-block"><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
+                            </ul>
+
+                        </div>
 
                     </div>
-
                 </div>
-</div>
                 <div>
-                    <a class="btn btn-grey desktop-btn btn-sm"
-                        href="<?php echo site_url('customer'); ?>"><span class="btn-text text-orange">Customer Login</span></a>
+                        <div class="main-nav ms-10 header-menu d-lg-block d-none">
+      <ul class="navigation">
+            <li class="d-lg-none d-block pe-10"><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
+
+</ul>
+</div>
+                    <a class="btn btn-grey desktop-btn btn-sm" href="<?php echo site_url('customer'); ?>"><span
+                            class="btn-text text-orange">Customer Login</span></a>
                     <a class="btn btn-orange desktop-btn btn-sm"
                         href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
                             Now</span></a>
 
                 </div>
             </div>
+            </div>
+         
         </header>
         <!--=====HEADER END=======-->

@@ -1591,7 +1591,7 @@ textarea.form-control.form-control-lg {
 }
 
 .navigation>li>a:not(.btn):hover {
-  color: #20ca6f;
+  color: #FE661D !important;
 }
 
 .navigation>li>a .icon-user {
@@ -1855,7 +1855,7 @@ textarea.form-control.form-control-lg {
 .sticky-header .nav-opener:not(:hover) span,
 .sticky-header .nav-opener:not(:hover):after,
 .sticky-header .nav-opener:not(:hover):before {
-  background: #20ca6f;
+  background: #000;
 }
 
 .listing-page-map:not(.sticky-header) .header {
@@ -9468,7 +9468,7 @@ textarea.form-control.form-control-lg {
   }
 
   .header-menu .navigation>li>a:not(.btn) {
-    color: #000 !important;
+    color: #00005A;
   }
 }
 
@@ -12312,7 +12312,7 @@ textarea.form-control.form-control-lg {
 }
 
 .account-box .account-box-frame {
-  border-radius: 1rem;
+  border-radius: 32px !important;
   padding: 25px;
   background: #eff6f3;
 }
@@ -12691,7 +12691,7 @@ textarea.form-control.form-control-lg {
 
 .section-faqs .accordion .accordion-body {
   line-height: 1.9;
-  padding: 5px 10px 15px;
+  padding: 15px !important;
 }
 
 @media (min-width: 768px) {
@@ -13855,7 +13855,7 @@ textarea.form-control.form-control-lg {
 
 .form-condidates {
   background: #eff6f3;
-  border-radius: 15px;
+  border-radius: 36px !important;
   padding: 25px 20px;
 }
 
@@ -15042,7 +15042,7 @@ textarea.form-control.form-control-lg {
 
 .footer-theme-1 .footer-links li a:hover,
 .footer-theme-1 .social-networks li a:hover {
-  color: #20ca6f;
+  color: #FE661D !important;
 }
 
 .header-theme-2 .nav-close span,
@@ -22676,7 +22676,8 @@ textarea.form-control.form-control-lg {
   .visual-theme-5 .visual-textbox .h1,
   .visual-theme-5 .visual-textbox h1 {
     font-size: 85px;
-    line-height: 50px;
+  line-height: 1.1;
+
   }
 }
 
@@ -50018,7 +50019,7 @@ textarea.form-control.form-control-lg {
 .how-we-help-block p {
   font-size: 16px;
   line-height: 24px;
-  color: #575E69;
+     color: #CFD0FF;
 }
 
 .section-theme-12.how-we-help-block .two-columns .column .icon {
@@ -50199,9 +50200,12 @@ textarea.form-control.form-control-lg {
 }
 
 .account-box .account-box-frame .input-group-text {
-  border-top-left-radius: 10px !important;
-  border-bottom-left-radius: 10px !important;
-  background: #F8FAFC;
+    border-radius: 14px !important;
+  background: #F8FAFC; 
+    width: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .otp-velidation-text,
@@ -50229,29 +50233,7 @@ textarea.form-control.form-control-lg {
 }
 
 
-
-.loan-offer-card {
-  position: relative;
-  background: #4D0690;
-  width: 100%;
-  border-radius: 24px 0 0 24px;
-}
-
-.loan-offer-card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/img/background-linear.png);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
-
-}
-
+ 
 
 .packages-block .features-list .feature-img {
   background-color: #00BC7B26;
@@ -50277,9 +50259,17 @@ textarea.form-control.form-control-lg {
   margin: auto;
 }
 
-.bg-dark {
+.hero-section {
   /* background: linear-gradient(180deg, #1C0338 0%, #4D0690 53%, #285E1E 100%); */
  background-image: url(../images/image.png);
+ background-size: 100% 100%;
+     background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 440px;
 }
 
 .rates-review {
@@ -50319,7 +50309,7 @@ textarea.form-control.form-control-lg {
 }
 .header-box{
 background: #fff;
-padding: 10px;
+padding: 10px 15px;
 border-radius: 50px;
 }
 .section-theme-2.how-we-help-block .help-list li{
@@ -50350,6 +50340,12 @@ text-align: center;
     border-radius: 22px;
     box-shadow: 0px 1px 0px 1px rgba(255, 255, 255, 0.35) inset;
     box-shadow: 0px 30px 60px -30px rgba(0, 0, 40, 0.5);
+    border: 1px solid #FFFFFF47 !important;
+    backdrop-filter: blur(22px);
+    background: linear-gradient(135deg, #24267F 0%, #252781 50%, #262989 100%);
+    border-radius: 28px;
+    overflow: hidden;
+    position:relative;
     }
     .cta{
     flex: 1 1 auto;

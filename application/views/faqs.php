@@ -2,7 +2,7 @@
 $this->load->view('includes/header-apply');
 ?>
 
-<div class="subvisual-block subvisual-theme-1 bg-dark d-flex pt-60 pt-md-90 pt-lg-70 pb-30 text-white">
+<div class="subvisual-block subvisual-theme-1 bg-blue d-flex pt-60 pt-md-90 pt-lg-70 pb-30 text-white">
  
   <div class="container position-relative text-center">
     <div class="row">
@@ -15,37 +15,20 @@ $this->load->view('includes/header-apply');
     </div>
   </div>
 </div>
-<div class="banner__img-two partner-bg-img text-center d-flex align-items-center justify-content-center">
-    <img src="<?= base_url('assets/images/partner-bg.png'); ?>" alt="" class="img-fluid d-md-block d-none">
-</div>
-<div class="banner__img-two partner-bg-img text-center d-flex align-items-center">
-    <img src="<?php echo base_url('assets/images/mobile-img.jpeg'); ?>" alt="image" class="img-fluid d-md-none d-block">
-</div>
+ 
+ 
 
-<section class="section section-theme-5 pt-0 pt-md-0 pb-xl-80 partner-section">
-    <div class="container">
-        <div class="trending-categories-slider">
-            <?php foreach ($banklist as $row) { ?>
-            <div class="wrap text-center">
-                <div class="justify-content-center categories-image">
-                    <img src="<?php echo base_url('assets/images/bank/' . $row->bank_image); ?>"
-                        alt="<?= $row->bank_name ?>" class="m-auto img-fluid">
-                </div>
-            </div>
-            <?php } ?>
-        </div>
-    </div>
-</section>
+ 
 
 <main class="main">
-  <section class="section section-theme-1 section-faqs pt-0 pt-md-0 pb-xl-80">
+  <section class="section section-theme-1 section-faqs pt-60 pt-md-60 py-xl-80">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="accordion" id="faq-accordion-1">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <button class="accordion-button collapsed bg-light-sky" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                   <span class="bullet"></span>
                   <span class="title">What purposes can a personal loan be used for?</span>
                 </button>
@@ -58,7 +41,7 @@ $this->load->view('includes/header-apply');
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed bg-light-sky" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   <span class="bullet"></span>
                   <span class="title">Do I have to pledge any assets to avail a personal loan?</span>
                 </button>
@@ -71,7 +54,7 @@ $this->load->view('includes/header-apply');
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button collapsed bg-light-sky" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   <span class="bullet"></span>
                   <span class="title">How do I know if I am eligible for a personal loan?</span>
                 </button>
@@ -102,7 +85,7 @@ $this->load->view('includes/header-apply');
           <div class="accordion" id="faq-accordion-2">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <button class="accordion-button collapsed bg-light-sky" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                   <span class="bullet"></span>
                   <span class="title">What are the documents required for applying for a personal loan?</span>
                 </button>
@@ -138,7 +121,7 @@ $this->load->view('includes/header-apply');
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <button class="accordion-button collapsed bg-light-sky" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                   <span class="bullet"></span>
                   <span class="title">Can I get tax benefits on personal loans?</span>
                 </button>
@@ -151,7 +134,7 @@ $this->load->view('includes/header-apply');
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                <button class="accordion-button collapsed bg-light-sky" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                   <span class="bullet"></span>
                   <span class="title">Why is having a good credit score so important?</span>
                 </button>
