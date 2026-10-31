@@ -92,7 +92,7 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 define('PROJECT_NAME', 'Firstkredit');
 define('COMPANY_NAME', 'Firstkredit Consulting Service');
 define('COMPANY_EMAIL', 'info@firstkredit.in');
-define('COMPANY_MOBILE', '+91-96241-85521');
+define('COMPANY_MOBILE', '+91-70166-27951');
 define('COMPANY_CIN', '#');
 define('COMPANY_GST', '24BGSPD8902P1ZT');
 define('COMPANY_SITE', 'https://firstkredit.in');
