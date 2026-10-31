@@ -90,15 +90,15 @@ defined('EXIT__AUTO_MAX') or define('EXIT__AUTO_MAX', 125); // highest automatic
  */
 
 // Project details
-define('PROJECT_NAME', 'firstkredit');
-define('COMPANY_NAME', 'Shree Ram Finhub Solutions LLp');
+define('PROJECT_NAME', 'Firstkredit');
+define('COMPANY_NAME', 'Firstkredit Consulting Service');
 define('COMPANY_EMAIL', 'info@firstkredit.in');
 define('COMPANY_MOBILE', '+91-96241-85521');
 define('COMPANY_CIN', '#');
 define('COMPANY_GST', '24BGSPD8902P1ZT');
 define('COMPANY_SITE', 'https://firstkredit.in');
 define('PARTNER_SITE', '#');
-define('COMPANY_ADDRESS', 'Ground Floo ,  Plot No. 259 , Shri Haridarshan Housing Society , Singanpor Road , Near Mahek Residency , Surat , Gujarat , 395004');
+define('COMPANY_ADDRESS', 'Ground Floor , Plot No. 259 , Shri Haridarshan Housing Society , Singanpor Road , Near Mahek Residency , Surat , Gujarat , 395004');
 define('COMPANY_TIMING', '10 AM to 5 PM (Monday to Saturday)');
 
 define('SECURE_SALT', 'verloopweb');

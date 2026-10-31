@@ -24,7 +24,7 @@
 							<b style="font-size:14pt;"><?php echo PROJECT_NAME ?></b><br>
 							<b><?php echo COMPANY_NAME ?></b><br/>
 							<div>
-							<span style="white-space: pre-wrap;" id="tmp_org_address">1st Flr, Plot 29,<br/>Parvati Nagar CHS2, Katargam Road,<br/>Katargam, Surat, Gujarat - 395004<br/>Mo.: <?php echo COMPANY_MOBILE ?><br/>Email: <?php echo COMPANY_EMAIL ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>
+							<span style="white-space: pre-wrap;" id="tmp_org_address"> Ground Floor , Plot No. 259 ,<br/>Shri Haridarshan Housing Society , <br>Singanpor Road , Near Mahek Residency , <br/>Surat, Gujarat - 395004<br/>Mo.: <?php echo COMPANY_MOBILE ?><br/>Email: <?php echo COMPANY_EMAIL ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>
 								
 							</div>
 						</td>

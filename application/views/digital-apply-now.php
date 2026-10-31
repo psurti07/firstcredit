@@ -9,16 +9,16 @@ $this->load->view('includes/header-apply.php');
                 <span class="text-white limited-offer py-15 px-15 rounded-pill mb-15 d-inline-block fa-xs bo">India's
                     trusted credit & loan expert</span>
                 <div class="visual-textbox pt-0">
-                    <h2 class="text-light font-Fraunces">Apply for Personal Loan Online up to <br><span
-                            class="text-orange"> ₹15 Lakhs</span></h2>
+                    <h2 class="text-light font-Fraunces">Explore Personal Loan Options Up to <br><span
+                            class="text-orange"> ₹10 Lakhs</span></h2>
                 </div>
                 <span class="text-white py-15 px-15 mb-15 d-inline-block fa-xs starting-price"> <i
-                        class="fas fa-star me-5"></i>Starting @ 10.99% p.a.</span>
+                        class="fas fa-star me-5"></i> Personalised Application Support</span>
                 <div class="base-icon mb-10">
                     <img src="<?= base_url('assets/images/logo/favicon-light-lg.png'); ?>" alt=""
                         class="img-fluid object-contain" width="20">
                 </div>
-                <p class="text-white">Trusted by over 2.7 million Customers</p>
+                <p class="text-white">Trusted by 12,000+ Customers</p>
                 <div class="banner__img-two text-center bg-image-wrap">
                     <img src="<?= base_url('assets/images/landing-img.png'); ?>" alt=""
                         class="img-fluid dekstop-img d-lg-block d-none">
@@ -431,7 +431,7 @@ $this->load->view('includes/header-apply.php');
             <div class="col-xl-12 col-12 m-auto">
                 <header class="section-header text-center text-lg-center">
 
-                    <h3>Trusted <span class="text-orange">NBFC Partners</sapn>
+                    <h3>Our <span class="text-orange">Partnered NBFCs</sapn>
                     </h3>
                     <p class="text-center">Hear what our clients have to say about us.</p>
                 </header>
@@ -458,7 +458,7 @@ $this->load->view('includes/header-apply.php');
 
             <div class="col-xl-12 col-12 m-auto">
                 <header class="section-header text-center text-lg-center">
-                    <h3 class="display-6 fw-bold text-navy mb-0">NBFC Personal Loan<span class="text-orange">
+                    <h3 class="display-6 fw-bold text-navy mb-0">NBFC Loan <span class="text-orange">
                             Criteria </span> </h3>
                     <p class="text-center">Check if you meet the following basic requirements before applying.</p>
                 </header>
@@ -476,7 +476,7 @@ $this->load->view('includes/header-apply.php');
                                         class="icon d-flex align-items-center justify-content-center bg-light-sky categories-image-wrap">
                                         <i class="fas fa-briefcase text-blue fs-5"></i>
                                     </div>
-                                    <h5 class="text-blue ms-10 mb-0">For Salaried</h5>
+                                    <h5 class="text-blue ms-10 mb-0">NBFC Personal Loan Criteria for Salaried</h5>
                                 </div>
                                 <hr>
                                 <ul class="list-unstyled list m-0">
@@ -484,8 +484,7 @@ $this->load->view('includes/header-apply.php');
 
                                         <div class="d-flex justify-content-between align-items-center">
                                             <span class="fa-sm"> <i
-                                                    class="far fa-check-circle text-color-blue me-10"></i>Age</span>
-                                            <span class="fw-bold fa-sm">21 Years</span>
+                                                    class="far fa-check-circle text-color-blue me-10"></i>Minimum 1 Year Job Stability
                                         </div>
 
                                     </li>
@@ -493,9 +492,7 @@ $this->load->view('includes/header-apply.php');
                                     <li class="ps-0 text-dark mb-20 mt-20">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <span class="fa-sm"> <i
-                                                    class="far fa-check-circle text-color-blue me-10"></i>Minimum
-                                                Salary</span>
-                                            <span class="fw-bold fa-sm">Rs. 15,000/month</span>
+                                                    class="far fa-check-circle text-color-blue me-10"></i>Minimum Salary: Rs. 15,000 Monthly
                                         </div>
                                     </li>
 
@@ -503,9 +500,7 @@ $this->load->view('includes/header-apply.php');
                                     <li class="ps-0 text-dark mb-20 mt-20">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <span class="fa-sm"> <i
-                                                    class="far fa-check-circle text-color-blue me-10"></i>Job
-                                                Duration</span>
-                                            <span class="fw-bold fa-sm">Min. 1 Year</span>
+                                                    class="far fa-check-circle text-color-blue me-10"></i>Min. Age: 21 Years
                                         </div>
                                     </li>
                                 </ul>
@@ -523,16 +518,14 @@ $this->load->view('includes/header-apply.php');
 
                                         <i class="fas fa-calculator text-blue fs-5"></i>
                                     </div>
-                                    <h5 class="text-blue ms-10 mb-0">For Self-Employed</h5>
+                                    <h5 class="text-blue ms-10 mb-0">NBFC Personal Loan Criteria for Self-Employed</h5>
                                 </div>
                                 <hr>
                                 <ul class="list-unstyled list m-0">
                                     <li class="ps-0 text-dark mb-20 mt-20">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <span class="fa-sm"> <i
-                                                    class="far fa-check-circle text-color-blue me-10"></i>Minimum
-                                                Age</span>
-                                            <span class="fw-bold fa-sm">21 Years</span>
+                                                    class="far fa-check-circle text-color-blue me-10"></i>Minimum 1 Year Business Stability
                                         </div>
                                     </li>
                                     <hr>
@@ -540,9 +533,7 @@ $this->load->view('includes/header-apply.php');
                                     <li class="ps-0 text-dark mb-20 mt-20">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <span class="fa-sm"> <i
-                                                    class="far fa-check-circle text-color-blue me-10"></i>Minimum
-                                                Salary</span>
-                                            <span class="fw-bold fa-sm">Rs. 15,000/month</span>
+                                                    class="far fa-check-circle text-color-blue me-10"></i>Minimum 1 Year IT Return
                                         </div>
                                     </li>
                                     <hr>
@@ -550,9 +541,7 @@ $this->load->view('includes/header-apply.php');
                                     <li class="ps-0 text-dark mb-20 mt-20">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <span class="fa-sm"> <i
-                                                    class="far fa-check-circle text-color-blue me-10"></i>Job
-                                                Stability</span>
-                                            <span class="fw-bold fa-sm">1 Year</span>
+                                                    class="far fa-check-circle text-color-blue me-10"></i>Min. Age: 21 Years
                                         </div>
                                     </li>
                                 </ul>
@@ -566,159 +555,121 @@ $this->load->view('includes/header-apply.php');
 
     </div>
 </section>
-
 <section
-    class="section section-theme-2 section-faqs pt-40 pt-md-50 pt-lg-75 pt-xl-80 pt-xxl-80 pb-40 pb-md-50 pb-lg-75 pb-xl-70 pb-xxl-80 bg-light-sky">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 section-header">
-
-                <div class="text-hold">
-                    <div class="tag-list mb-20">
-                        <span class="tag-wrap text-orange">FAQ</span>
+        class="section section-theme-2 section-faqs pt-35 pt-md-50 pt-lg-75 py-xl-80 py-xxl-80 pb-35 pb-md-50 pb-lg-75 bg-light-sky">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 section-header">
+                    <div class="text-hold">
+                        <div class="tag-list mb-20">
+                            <span class="tag-wrap text-orange">FAQ</span>
+                        </div>
                     </div>
+                    <h3 class="mb-15">Frequently Asked Questions</h3>
+                    <p>Find answers to common questions about personal loans with FirstKredit.</p>
+
                 </div>
-                <h3 class="mb-15">Frequently Asked <span class="text-orange">Questions</span></h3>
-                <p>Got questions? We’ve got answers. Here’s everything you need to know about applying for a loan
-                    with firstkreditt.</p>
+                <div class="col-md-8">
+                    <div class="accordion" id="faq-accordion-2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="false" aria-controls="collapseOne">
 
-            </div>
-            <div class="col-md-8">
-                <div class="accordion" id="faq-accordion-2">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button collapsed bg-white justify-content-between border"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                aria-expanded="false" aria-controls="collapseOne">
-
-                                <span class="title">What can a personal loan be used for?</span>
-                                <span class="bullet me-0"></span>
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                            data-bs-parent="#faq-accordion-1">
-                            <div class="accordion-body">
-                                <p>A personal loan may be used for purposes permitted by the relevant NBFC, such as
-                                    planned expenses or personal requirements. The permitted use and terms vary by
-                                    lender.</p>
+                                    <span class="title">How much personal loan can I apply for?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>The available loan amount depends on your profile and the lender’s eligibility criteria.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed bg-white justify-content-between border"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
 
-                                <span class="title">Is collateral required for a personal loan?</span>
-                                <span class="bullet me-0"></span>
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#faq-accordion-1">
-                            <div class="accordion-body">
-                                <p>Many personal loans are unsecured and may not require collateral. However,
-                                    requirements are decided by the NBFC based on its policies and the applicant’s
-                                    profile.</p>
+                                    <span class="title">How long does the application review take?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>Review times vary depending on the lender and the documents submitted.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed bg-white justify-content-between border"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
 
-                                <span class="title">How is personal loan eligibility assessed?</span>
-                                <span class="bullet me-0"></span>
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#faq-accordion-1">
-                            <div class="accordion-body">
-                                <p>
-                                    NBFCs may assess income, credit history, existing financial obligations, documents
-                                    and other internal criteria. FlexiCred can guide you on the application process, but
-                                    the final decision is made by the NBFC.
+                                    <span class="title">Will checking eligibility affect my credit score?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>
+                                        This depends on whether a credit check is performed and the type of enquiry. Check the details before you proceed.
 
-                                </p>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed bg-white justify-content-between border"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                aria-expanded="false" aria-controls="collapseFour">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
 
-                                <span class="title">What documents may be required?</span>
-                                <span class="bullet me-0"></span>
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                            data-bs-parent="#faq-accordion-1">
-                            <div class="accordion-body">
-                                <p>
-                                    Requirements may vary by NBFC, but commonly include identity proof, address proof,
-                                    income-related documents and bank statements. A complete checklist is shared based
-                                    on the application requirements.
-                                </p>
+                                    <span class="title">Which documents do I need?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>
+                                        Lenders may request identity, address and income proof. Requirements vary by lender.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed bg-white justify-content-between border"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                aria-expanded="false" aria-controls="collapseFive">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                    aria-expanded="false" aria-controls="collapseFive">
 
-                                <span class="title">Are there tax benefits on a personal loan?</span>
-                                <span class="bullet me-0"></span>
-                            </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                            data-bs-parent="#faq-accordion-1">
-                            <div class="accordion-body">
-                                <p>Tax treatment depends on how the loan amount is used and applicable tax laws. Please
-                                    consult a qualified tax professional for advice specific to your situation.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header mb-0" id="headingSix">
-                            <button class="accordion-button collapsed bg-white justify-content-between border"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                aria-expanded="false" aria-controls="collapseSix">
-
-                                <span class="title">Why is credit history important?</span>
-                                <span class="bullet me-0"></span>
-                            </button>
-                        </h2>
-                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                            data-bs-parent="#faq-accordion-2">
-                            <div class="accordion-body">
-                                <p>Credit history is one factor an NBFC may consider while reviewing an application.
-                                    Maintaining timely repayments and managing existing obligations responsibly may help
-                                    support a healthy credit profile.</p>
+                                    <span class="title">What charges should I expect?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>Interest rates, processing fees and other charges vary by lender. Review the applicable terms before proceeding.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <section class="section section-contact section-theme-1 bg-dark-blue">
     <div class="container">
-        <p class="mb-0 text-white"><small><strong>Disclaimer: </strong><?php echo COMPANY_NAME ?> is not a lender or
-                financial
-                institution. We do not provide loans or make credit decisions. All loan approvals, interest rates, fees,
-                and
-                disbursal are handled by third-party lenders/NBFCs. We do not guarantee loan approval, disbursal, or
-                specific loan terms. The amount paid is only for the service charge. We are not lenders and do not
-                guarantee
-                any loan approval. Loan approval, disbursement/sanction is entirely dependent on NBFC criteria.</small>
+        <p class="mb-0 text-white"><small><strong>Disclaimer: </strong><?php echo COMPANY_NAME ?> is not a lender or financial institution. We do not provide loans or make credit decisions. All loan approvals, interest rates, fees, and disbursal are handled by third-party lenders/NBFCs. We do not guarantee loan approval, disbursal, or specific loan terms. The amount paid is only for the service charge. We are not lenders and do not guarantee any loan approval. Loan approval, disbursement/sanction is entirely dependent on NBFC criteria.</small>
         </p>
 
         <p class="mb-0 text-white"><small><strong>Important Note: </strong>We ask our customers to make payments ONLY on

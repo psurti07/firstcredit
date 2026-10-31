@@ -25,7 +25,7 @@
                     <b style="font-size:14pt;">firstkredit.in</b><br>
                     <b>Roop Finserve India Pvt. Ltd.</b><br/>
                     <div>
-                    <span style="white-space: pre-wrap;" id="tmp_org_address">G-5, Green Elina Complex<br/>Anand Mahal Road, Adajan<br/>Surat, Gujarat, India - 395009<<br/>Mo.: <?php echo COMPANY_MOBILE; ?><br/>Email: <?php echo COMPANY_EMAIL; ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>
+                    <span style="white-space: pre-wrap;" id="tmp_org_address"> Ground Floor , Plot No. 259 ,<br/>Shri Haridarshan Housing Society , <br>Singanpor Road , Near Mahek Residency , <br/>Surat, Gujarat - 395004<br/>Mo.: <?php echo COMPANY_MOBILE ?><br/>Email: <?php echo COMPANY_EMAIL ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>
                      </div>
                   </td>
                    <td style="vertical-align:top;word-wrap:break-word;float:right;text-align:right;width:50%;">

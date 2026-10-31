@@ -11,8 +11,7 @@ $this->load->view('includes/header');
                         <h1 class="text-light font-Fraunces">Hausla Aapka.
                             <br>Deals <span class="text-orange"><strong>Hamare. </strong><br>
                         </h1>
-                        <p class="text-light">Business loans from 20+ NBFC partners, compared in one place. Apply
-                            online and get approved in as little as 48 hours.</p>
+                        <p class="text-light">Explore personal loan options from 10+ NBFC partners in one place. Apply online and receive guidance throughout the process. </p>
                         <div
                             class="form-search d-flex flex-column flex-sm-row justify-content-between hero-section-form ps-0 pb-0 mb-0">
 
@@ -43,16 +42,15 @@ $this->load->view('includes/header');
                                 <span class="tag-wrap text-orange">About us</span>
                             </div>
                         </div>
-                        <h3 class="mb-10">Funding that moves as fast as your business</h3>
-                        <p class="">FirstCredit connects business owners with trusted NBFC partners across India. We
-                            compare offers, simplify paperwork and support you until the money reaches your account.</p>
+                        <h3 class="mb-10">Personal Loan Support, Made Simple</h3>
+                        <p class="">FirstKredit helps you explore personal loan options from participating NBFC partners and guides you through the application process.</p>
                         <div class="row mb-20 mt-20">
                             <div class="col-lg-6">
                                 <ul class="list-unstyled help-list mt-0 mb-0">
                                     <li><i class="fa fa-check-circle text-blue fs-6"></i>&nbsp;
-                                        Transparent rates</li>
+                                        Clear loan information</li>
                                     <li><i class="fa fa-check-circle text-blue fs-6"></i>&nbsp; Expert
-                                        No hidden charges</li>
+                                        Application guidance</li>
 
                                 </ul>
                             </div>
@@ -60,7 +58,7 @@ $this->load->view('includes/header');
                                 <ul class="list-unstyled help-list mt-0 mb-0">
 
                                     <li><i class="fa fa-check-circle text-blue fs-6"></i>&nbsp;
-                                        Dedicated loan expert</li>
+                                        Dedicated support</li>
                                     <li><i class="fa fa-check-circle text-blue fs-6"></i>&nbsp;
                                         Secure data handling</li>
                                 </ul>
@@ -91,8 +89,8 @@ $this->load->view('includes/header');
                                 <span class="tag-wrap text-orange">How it works</span>
                             </div>
                         </div>
-                        <h3>Get your business loan in 6 simple steps</h3>
-                        <p class="text-center">A digital-first process with no branch visits and no paperwork queues.
+                        <h3>Your Personal Loan Application in 6 Steps</h3>
+                        <p class="text-center">A simple process with guidance at every stage.
                         </p>
                     </header>
                 </div>
@@ -110,9 +108,8 @@ $this->load->view('includes/header');
                                         alt="icon"></span>
                             </div>
                         </div>
-                        <h6 class="text-blue">Fill the application</h6>
-                        <p class="text-dark">Share your business details and the loan amount
-                            you need in under five minutes.</p>
+                        <h6 class="text-blue">Share Your Details</h6>
+                        <p class="text-dark">Enter your basic information and required loan amount.</p>
 
                     </div>
                 </div>
@@ -128,9 +125,8 @@ $this->load->view('includes/header');
                                         alt="icon"></span>
                             </div>
                         </div>
-                        <h6 class="text-blue">Check eligibility</h6>
-                        <p class="text-dark">See your eligible amount instantly, with no impact
-                            on your credit score.</p>
+                        <h6 class="text-blue">Review Eligibility</h6>
+                        <p class="text-dark">Explore options based on the information provided.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -145,9 +141,8 @@ $this->load->view('includes/header');
                                         alt="icon"></span>
                             </div>
                         </div>
-                        <h6 class="text-blue">Upload documents</h6>
-                        <p class="text-dark">Submit KYC and bank statements securely from
-                            your phone or laptop.</p>
+                        <h6 class="text-blue">Submit Documents</h6>
+                        <p class="text-dark">Provide the documents required for your application.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -162,9 +157,8 @@ $this->load->view('includes/header');
                                         alt="icon"></span>
                             </div>
                         </div>
-                        <h6 class="text-blue">Compare offers</h6>
-                        <p class="text-dark">Review rates and tenures from our NBFC partners
-                            and pick the best fit.</p>
+                        <h6 class="text-blue">Explore Loan Options</h6>
+                        <p class="text-dark">Review available options and their applicable terms.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -179,9 +173,8 @@ $this->load->view('includes/header');
                                         alt="icon"></span>
                             </div>
                         </div>
-                        <h6 class="text-blue">Get approved</h6>
-                        <p class="text-dark">Receive your sanction letter, usually within 48
-                            hours of verification.</p>
+                        <h6 class="text-blue">Lender Review</h6>
+                        <p class="text-dark">The NBFC reviews your application and documents.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -196,9 +189,8 @@ $this->load->view('includes/header');
                                         alt="icon"></span>
                             </div>
                         </div>
-                        <h6 class="text-blue">Receive funds</h6>
-                        <p class="text-dark mb-0">The loan amount is disbursed directly into your
-                            business bank account.</p>
+                        <h6 class="text-blue">Receive a Decision</h6>
+                        <p class="text-dark mb-0">The lender communicates its decision and applicable terms.</p>
                     </div>
                 </div>
             </div>
@@ -215,9 +207,8 @@ $this->load->view('includes/header');
                                 <span class="tag-wrap text-orange bg-white">Why choose us</span>
                             </div>
                         </div>
-                        <h3 class="text-light">The FirstCredit difference</h3>
-                        <p class="text-center text-light">A digital-first process with no branch visits and no paperwork
-                            queues.</p>
+                        <h3 class="text-light">The FirstKredit Difference</h3>
+                        <p class="text-center text-light">Clear guidance and support for your personal loan application.</p>
                     </header>
                 </div>
             </div>
@@ -231,8 +222,8 @@ $this->load->view('includes/header');
                             </div>
                         </div>
                         <div class="text-start text-light">
-                            <h6>100% online</h6>
-                            <p class="mt-10">Apply from anywhere. No branch visits, no physical paperwork.</p>
+                            <h6>Online Application</h6>
+                            <p class="mt-10">Start your application online from wherever you are.</p>
                         </div>
                     </div>
                 </div>
@@ -245,8 +236,8 @@ $this->load->view('includes/header');
                             </div>
                         </div>
                         <div class="text-start text-light">
-                            <h6>Fast approval</h6>
-                            <p class="mt-10">Most applications are approved within 48 hours of verification.</p>
+                            <h6>Application Guidance</h6>
+                            <p class="mt-10">Get support with the steps and documents required.</p>
                         </div>
                     </div>
                 </div>
@@ -259,8 +250,8 @@ $this->load->view('includes/header');
                             </div>
                         </div>
                         <div class="text-start text-light">
-                            <h6>Many lenders</h6>
-                            <p class="mt-10">One application reaches NBFCs so you can compare real offers.</p>
+                            <h6>Lender Options</h6>
+                            <p class="mt-10">Explore personal loan options from participating NBFC partners.</p>
                         </div>
                     </div>
                 </div>
@@ -273,8 +264,8 @@ $this->load->view('includes/header');
                             </div>
                         </div>
                         <div class="text-start text-light">
-                            <h6>Expert support</h6>
-                            <p class="mt-10">A certified loan expert guides you from first query to disbursal.</p>
+                            <h6>EDedicated Support</h6>
+                            <p class="mt-10">Our team is here to help with your application questions.</p>
                         </div>
                     </div>
                 </div>
@@ -285,8 +276,8 @@ $this->load->view('includes/header');
                     <div class="align-items-center process-box h-100">
 
                         <div class="text-start">
-                            <h3 class="text-light">₹500 Cr+</h3>
-                            <p class="mt-0 mb-0">Loans facilitated</p>
+                            <h3 class="text-light">₹5 Cr+</h3>
+                            <p class="mt-0 mb-0">Loan Applications Assisted*</p>
                         </div>
                     </div>
                 </div>
@@ -294,8 +285,8 @@ $this->load->view('includes/header');
                     <div class="align-items-center process-box h-100">
 
                         <div class="text-start">
-                            <h3 class="text-light">5,000+</h3>
-                            <p class="mt-0 mb-0">Businesses funded</p>
+                            <h3 class="text-light">12,000+</h3>
+                            <p class="mt-0 mb-0">Customers Supported*</p>
                         </div>
                     </div>
                 </div>
@@ -303,8 +294,8 @@ $this->load->view('includes/header');
                     <div class="align-items-center process-box h-100">
 
                         <div class="text-start">
-                            <h3 class="text-light">48 hrs</h3>
-                            <p class="mt-0 mb-0">Average approval time</p>
+                            <h3 class="text-light">10+</h3>
+                            <p class="mt-0 mb-0">NBFC Partners*</p>
                         </div>
                     </div>
                 </div>
@@ -313,7 +304,7 @@ $this->load->view('includes/header');
 
                         <div class="text-start">
                             <h3 class="text-light">4.8/5</h3>
-                            <p class="mt-0 mb-0">Client rating</p>
+                            <p class="mt-0 mb-0">Customer rating</p>
                         </div>
                     </div>
                 </div>
@@ -392,15 +383,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p class="lh-normal">“The application steps and document requirements were
-                                            explained clearly.”</p>
+                                        <p class="lh-normal">FirstKredit explained the application steps clearly and helped me understand the documents required</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
                                             <img src="<?php echo base_url('assets/images/user-1.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Rohan Bedi</p>
+                                        <p class="card-position mb-0 ms-15">Hiral Vyas</p>
                                     </div>
 
                                 </div>
@@ -419,14 +409,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“I found the guidance on the application process easy to understand.”</p>
+                                        <p>The team answered my questions and guided me through the personal loan application process.</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
                                             <img src="<?php echo base_url('assets/images/user-2.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Ankit Shah</p>
+                                        <p class="card-position mb-0 ms-15">Darshan Trivedi</p>
                                     </div>
                                 </div>
                             </div>
@@ -444,14 +434,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“The team helped me organise the required documents in a clear way.”</p>
+                                        <p>The information was easy to understand, and the support was helpful throughout</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
                                             <img src="<?php echo base_url('assets/images/user-3.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Priya Mehta</p>
+                                        <p class="card-position mb-0 ms-15">Kinjal Bhatt</p>
                                     </div>
                                 </div>
                             </div>
@@ -469,14 +459,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“I appreciated the timely updates and process-related support.”</p>
+                                        <p>I appreciated the guidance on the documents and the next steps in my application.</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
                                             <img src="<?php echo base_url('assets/images/user-4.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Kunal Patel</p>
+                                        <p class="card-position mb-0 ms-15">Mihir Thakkar</p>
                                     </div>
                                 </div>
                             </div>
@@ -494,14 +484,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“The consultation helped me understand the next steps better.”</p>
+                                        <p>FirstKredit made it easier for me to understand the available loan options.</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
                                             <img src="<?php echo base_url('assets/images/user-1.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Neha Verma</p>
+                                        <p class="card-position mb-0 ms-15">Hetal Dave</p>
                                     </div>
                                 </div>
                             </div>
@@ -519,7 +509,7 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“The team explained NBFC requirements in a simple and professional manner.”
+                                        <p>The team was supportive and explained the process in a simple way.
                                         </p>
                                     </div>
                                     <div class="d-flex align-items-center">
@@ -527,7 +517,7 @@ $this->load->view('includes/header');
                                             <img src="<?php echo base_url('assets/images/user-2.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Rahul Joshi</p>
+                                        <p class="card-position mb-0 ms-15">Parth Soni</p>
                                     </div>
                                 </div>
                             </div>
@@ -545,14 +535,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“The document checklist made the application process easier to follow.”</p>
+                                        <p>I found the application guidance clear and useful.</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
                                             <img src="<?php echo base_url('assets/images/user-3.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Sneha Kapoor</p>
+                                        <p class="card-position mb-0 ms-15">Niyati Acharya</p>
                                     </div>
                                 </div>
                             </div>
@@ -570,7 +560,7 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“Clear communication helped me understand the process from the beginning.”
+                                        <p>The team helped me understand what information was needed for my application.
                                         </p>
                                     </div>
                                     <div class="d-flex align-items-center">
@@ -578,7 +568,7 @@ $this->load->view('includes/header');
                                             <img src="<?php echo base_url('assets/images/user-4.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Harshil Desai</p>
+                                        <p class="card-position mb-0 ms-15">Jignesh Barot</p>
                                     </div>
                                 </div>
                             </div>
@@ -596,14 +586,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“The support team responded to my process-related questions promptly.”</p>
+                                        <p>My questions were addressed, and I received guidance at each step.</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
                                             <img src="<?php echo base_url('assets/images/user-1.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Aditi Sharma</p>
+                                        <p class="card-position mb-0 ms-15">Dhara Pandya</p>
                                     </div>
                                 </div>
                             </div>
@@ -621,14 +611,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>“A helpful experience for understanding loan application requirements.”</p>
+                                        <p>FirstKredit provided helpful support while I explored personal loan options.</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
                                             <img src="<?php echo base_url('assets/images/user-2.png'); ?>" alt="image"
                                                 class="img-fluid process-border-img m-auto">
                                         </div>
-                                        <p class="card-position mb-0 ms-15">Vivek Agarwal</p>
+                                        <p class="card-position mb-0 ms-15">Bhavin Raval</p>
                                     </div>
                                 </div>
                             </div>
@@ -649,8 +639,7 @@ $this->load->view('includes/header');
                         </div>
                     </div>
                     <h3 class="mb-15">Frequently Asked Questions</h3>
-                    <p>Can't find what you need? Send us a message and we'll
-                        reply quickly.</p>
+                    <p>Find answers to common questions about personal loans with FirstKredit.</p>
 
                 </div>
                 <div class="col-md-8">
@@ -661,16 +650,14 @@ $this->load->view('includes/header');
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                     aria-expanded="false" aria-controls="collapseOne">
 
-                                    <span class="title">What can a personal loan be used for?</span>
+                                    <span class="title">How much personal loan can I apply for?</span>
                                     <span class="bullet me-0"></span>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                 data-bs-parent="#faq-accordion-1">
                                 <div class="accordion-body">
-                                    <p>A personal loan may be used for purposes permitted by the relevant NBFC, such as
-                                        planned expenses or personal requirements. The permitted use and terms vary by
-                                        lender.</p>
+                                    <p>The available loan amount depends on your profile and the lender’s eligibility criteria.</p>
                                 </div>
                             </div>
                         </div>
@@ -680,16 +667,14 @@ $this->load->view('includes/header');
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
 
-                                    <span class="title">Is collateral required for a personal loan?</span>
+                                    <span class="title">How long does the application review take?</span>
                                     <span class="bullet me-0"></span>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#faq-accordion-1">
                                 <div class="accordion-body">
-                                    <p>Many personal loans are unsecured and may not require collateral. However,
-                                        requirements are decided by the NBFC based on its policies and the applicant’s
-                                        profile.</p>
+                                    <p>Review times vary depending on the lender and the documents submitted.</p>
                                 </div>
                             </div>
                         </div>
@@ -699,7 +684,7 @@ $this->load->view('includes/header');
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                     aria-expanded="false" aria-controls="collapseThree">
 
-                                    <span class="title">How is personal loan eligibility assessed?</span>
+                                    <span class="title">Will checking eligibility affect my credit score?</span>
                                     <span class="bullet me-0"></span>
                                 </button>
                             </h2>
@@ -707,9 +692,7 @@ $this->load->view('includes/header');
                                 data-bs-parent="#faq-accordion-1">
                                 <div class="accordion-body">
                                     <p>
-                                        NBFCs may assess income, credit history, existing financial obligations,
-                                        documents and other internal criteria. FlexiCred can guide you on the
-                                        application process, but the final decision is made by the NBFC.
+                                        This depends on whether a credit check is performed and the type of enquiry. Check the details before you proceed.
 
                                     </p>
                                 </div>
@@ -721,7 +704,7 @@ $this->load->view('includes/header');
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
 
-                                    <span class="title">What documents may be required?</span>
+                                    <span class="title">Which documents do I need?</span>
                                     <span class="bullet me-0"></span>
                                 </button>
                             </h2>
@@ -729,9 +712,7 @@ $this->load->view('includes/header');
                                 data-bs-parent="#faq-accordion-1">
                                 <div class="accordion-body">
                                     <p>
-                                        Requirements may vary by NBFC, but commonly include identity proof, address
-                                        proof, income-related documents and bank statements. A complete checklist is
-                                        shared based on the application requirements.
+                                        Lenders may request identity, address and income proof. Requirements vary by lender.
                                     </p>
                                 </div>
                             </div>
@@ -742,35 +723,14 @@ $this->load->view('includes/header');
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                     aria-expanded="false" aria-controls="collapseFive">
 
-                                    <span class="title">Are there tax benefits on a personal loan?</span>
+                                    <span class="title">What charges should I expect?</span>
                                     <span class="bullet me-0"></span>
                                 </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                 data-bs-parent="#faq-accordion-1">
                                 <div class="accordion-body">
-                                    <p>Tax treatment depends on how the loan amount is used and applicable tax laws.
-                                        Please consult a qualified tax professional for advice specific to your
-                                        situation.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header mb-0" id="headingSix">
-                                <button class="accordion-button collapsed bg-white justify-content-between border"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                    aria-expanded="false" aria-controls="collapseSix">
-
-                                    <span class="title">Why is credit history important?</span>
-                                    <span class="bullet me-0"></span>
-                                </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                data-bs-parent="#faq-accordion-2">
-                                <div class="accordion-body">
-                                    <p>Credit history is one factor an NBFC may consider while reviewing an application.
-                                        Maintaining timely repayments and managing existing obligations responsibly may
-                                        help support a healthy credit profile.</p>
+                                    <p>Interest rates, processing fees and other charges vary by lender. Review the applicable terms before proceeding.</p>
                                 </div>
                             </div>
                         </div>
@@ -921,8 +881,7 @@ $this->load->view('includes/header');
                             <div class="card border border-primary bg-orange mb-3 newsletter-section">
                                 <div class="row cta p-40 align-items-center">
                                     <div class="col-lg-9 col-md-8 mb-lg-0 mb-10 p-0">
-                                        <h4 class="text-light">Ready to grow your business? Get <br> your loan offer
-                                            today.</h4>
+                                        <h4 class="text-light">Explore Personal Loan Options with FirstKredit</h4>
                                     </div>
                                     <div class="col-lg-3 col-md-4 p-0">
                                         <a href="<?= base_url('onlineprocess/applynow'); ?>"

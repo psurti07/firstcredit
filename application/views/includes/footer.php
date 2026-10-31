@@ -10,9 +10,7 @@
 
 	                        <div class="footer-info">
 	                            <div class="form-subscribe mb-20">
-	                                <p class="text-light">FirstCredit helps you find the right financial
-support by connecting you with trusted NBFC
-partners across India.</p>
+	                                <p class="text-light">FirstKredit helps you explore personal loan options and provides guidance through the application process.</p>
 	                            </div>
 
 	                            <ul class="social-networks no-bg d-flex flex-wrap">
